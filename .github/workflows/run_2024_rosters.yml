@@ -20,7 +20,7 @@ jobs:
 
       - name: Collect MLB rosters
         run: |
-          python build_2024_rosters.py --start 2024-07-01 --end 2024-07-01
+          python build_2024_rosters.py --start 2024-04-01 --end 2024-09-30
 
       - name: Save roster dataset
         uses: actions/upload-artifact@v4
