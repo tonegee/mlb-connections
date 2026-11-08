@@ -28,7 +28,7 @@ jobs:
           name: mlb-rosters-2024-test
           path: mlb-connections-2024.json
 
-                - name: Publish roster dataset
+      - name: Publish roster dataset
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
